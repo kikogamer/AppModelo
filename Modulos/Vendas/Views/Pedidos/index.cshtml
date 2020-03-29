@@ -1,5 +1,8 @@
 @{
   ViewData["Title"] = "Index";
+  @model Kiko.UI.Site.Modulos.Vendas.Data.PedidoRepository
 }
 
 <h1>Pedidos</h1>
+
+@Model.ObterPedido().Id
